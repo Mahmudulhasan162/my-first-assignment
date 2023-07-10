@@ -16,7 +16,7 @@ header{
     align-items: center;
 }
 .header-flower{
-    height: 600px;
+    height: 700px;
     padding: 30px;
 }
 .header_text{
@@ -46,4 +46,25 @@ header{
     width: 200px;
     padding: 20px 40px;
 
+}
+.deal-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 50px;
+    margin: 50px 0;
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+}
+.deal-h2{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 25px;
+}
+.deal-span{
+    color: #E55473;
+}
+.deal-btn{
+    text-align: center;
 }
