@@ -2,8 +2,48 @@
     padding: 0;
     margin: 0;
 }
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+}
 .header_container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+}
+.header-flower{
+    height: 600px;
+    padding: 30px;
+}
+.header_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.header_h1{
+    width: 700px;
+    color: #272727;
+    font-size: 70px;
+    padding: 30px 0;
+}
+.header_p{
+    width: 630px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.header_btn{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #E55473;;
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+    padding: 20px 40px;
+
 }
