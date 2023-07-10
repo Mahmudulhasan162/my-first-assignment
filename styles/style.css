@@ -41,7 +41,7 @@ header{
     color: white;
     font-size: 20px;
     font-weight: 700;
-    background-color: #E55473;;
+    background-color: #E55473;
     border-radius: 8px;
     border: none;
     width: 200px;
@@ -100,4 +100,26 @@ footer{
     font-size: 16px;
     font-weight: 400;
     padding: 20px;
+}
+.latest-container{
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 140px;
+}
+.linput{
+    padding: 20px;
+    border-radius: 8px;
+    background-color:white;
+    width: 500px;
+}
+.latest-form{
+    display: flex;
+    gap: 20px;
 }
