@@ -6,6 +6,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+/* header section starts here */
 header{
     background-color: rgba(229, 84, 115, 0.10);
     height: 100vh;
@@ -47,6 +48,7 @@ header{
     padding: 20px 40px;
 
 }
+/* deal section starts here */
 .deal-container{
     display: flex;
     justify-content: space-evenly;
@@ -67,4 +69,35 @@ header{
 }
 .deal-btn{
     text-align: center;
+}
+/* footer section starts here */
+footer{
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 450px;
+}
+.footer-h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 20px;
+}
+.fspan{
+    color: #E55473;
+}
+.footer-p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    width: 625px;
+}
+.footer_p{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
 }
