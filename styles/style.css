@@ -101,6 +101,7 @@ footer{
     font-weight: 400;
     padding: 20px;
 }
+/* latest deals section starts here */
 .latest-container{
     background-image: url('../Flower Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
@@ -122,4 +123,23 @@ footer{
 .latest-form{
     display: flex;
     gap: 20px;
+}
+/* instagram section starts here */
+.insta{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    margin:0 500px;
+}
+.insta_h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 30px;
 }
