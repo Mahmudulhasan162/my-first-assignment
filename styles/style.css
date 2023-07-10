@@ -174,27 +174,31 @@ footer{
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 50px;
-    margin-top: 40px;
+    padding-top: 50px;
+    margin: 40px 140px;
+    margin-bottom: 0;
 }
 .img1{
-    height: 400px;
-    padding: 50px;
+    height: 350px;
+    width: 270px;
+    padding: 100px 50px;
+    padding-bottom: 0;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
 }
 .img2{
-    height: 400px;
-    width: 300px;
-    padding: 50px;
-    background-size: contain;
-    /* border-width: thin; */
+    height: 350px;
+    width: 270px;
+    padding:100px 50px;
+    padding-bottom: 0px;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(5, 151, 160, 0.15);
 }
 .img3{
-    height: 400px;
-    padding: 50px;
+    height: 350px;
+    width: 270px;
+    padding: 100px 60px;
+    padding-bottom: 0;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(71, 125, 17, 0.15);
 }
