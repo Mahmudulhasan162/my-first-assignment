@@ -240,3 +240,73 @@ footer{
     background-color: rgba(39, 39, 39, 0.05);
     border-radius: 8px;
 }
+/* extra section starts here */
+.happiness-container{
+    background-image: url("../Flower Asset/extra\ 1.jfif"),linear-gradient(45deg, peru, rgb(37, 35, 35));
+    background-blend-mode: overlay;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+}
+.hp1{
+    font-size: 44px;
+    padding: 40px;
+    margin-bottom: 50px;
+    color:white;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.happiness{
+    font-size: 56px;
+    padding: 40px;
+    font-weight: 700;
+    color: white;
+}
+.happiness-container h3{
+    color: white;
+    font-weight: 300;
+}
+.coupon{
+    background-image: url('../Flower Asset/extra\ 2.jfif'),linear-gradient(45deg,rgb(178, 178, 228),rgba(99, 93, 93, 0.8));
+    background-blend-mode: overlay;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+}
+.coupon h3{
+    color: black;
+    background-color: transparent;
+    border: 3px solid #E55473;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 40px;
+}
+.coupon h1{
+    font-size: 65px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a{
+    font-size: 100px;
+}
+.off{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
