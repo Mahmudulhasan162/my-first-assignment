@@ -310,3 +310,38 @@ footer{
     display: flex;
     flex-direction: column;
 }
+.enjoy{
+    background-image: url('../Flower Asset/extra\ 3.webp'),linear-gradient(45deg,rgb(250, 231, 231), rgb(90, 86, 86));
+    background-blend-mode: overlay;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.enjoy h3{
+    background-color: #e6a1b0;
+    padding: 10px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+}
+.enjoy h2{
+    color: rgb(63, 57, 57);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.extra-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
